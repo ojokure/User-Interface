@@ -64,15 +64,111 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-
+* {
+	box-sizing: border-box;
+}
 .container { width: 1000px;
 	 margin: 0 auto; 
 }
-#gs{
-	border : 1px solid black
+.navigationbar{
+	/* border:1px solid red; */
 }
 
-.nav{
+#content{
+	border-top: 1px solid black;
+	border-bottom:1px solid black;
+}
+.gs{
+	border :1px solid black;
+	width:150px;
+	margin: 0 auto;
+	text-align: center;
+	padding:10px;
 	
 }
 
+
+.nav-item{ 
+	padding-right: 40px;
+	display:inline-block
+
+}
+
+.greatidea{
+	width: 50px;
+	display:inline-block;
+	padding-left:250px;
+	
+}
+.innovation{
+	/* border:1px solid blue; */
+	display: inline-block;
+	margin-left: 100px;
+}
+.innovation h1{
+	font-size:70px;
+	margin-bottom:1px;
+	text-align: center;
+}
+/* .round img{
+	width:200px;
+	height:200px;
+} */
+.round{
+	margin-left:180px;
+		display: inline-block;
+		/* width:200px;
+		height:200px; */
+	}
+.features{
+	width: 470px;
+	border: 15px;
+	/* padding: 50px; */
+	display:inline-block;
+}
+.about{
+	width: 470px;
+	/* border: 1px solid green; */
+	margin-left: 55px;
+	display:inline-block;
+}
+.services{
+	width: 300px;
+	border: 15px;
+	padding: 50px;
+	margin: 20px;
+	display:inline-block;
+}
+/* .middleimage{
+	width: 300px;
+	border: 15px;.
+	padding: 50px;
+	margin: 20px;
+	display:inline-block;
+} */
+.product{
+	width: 300px;
+	border: 15px;
+	padding: 50px;
+	margin: 20px;
+	display:inline-block;
+}
+.vision{
+	width: 300px;
+	border: 15px;
+	margin: 20px;
+	display:inline-block;
+}
+.contact{
+	width: 300px;
+	border: 15px;
+	padding: 50px;
+	margin: 20px;
+	display:inline-block;
+}
+.footer{
+	padding-left:450px;
+}
+address{
+	font-style: italic
+}
